@@ -1,2 +1,2 @@
-# grgiy.github.io
+# grgiy (григ)
 Мой первый сайт
