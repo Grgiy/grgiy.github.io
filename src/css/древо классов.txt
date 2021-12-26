@@ -1,0 +1,86 @@
+.logo {}
+.menu {}
+.greetings {}
+.pict1 {}
+.main {}
+.submit {}
+.A {}
+    .A1 {}
+    .A2 {}
+    .A3 {}
+    .A4 {}
+.B {}
+    .B1 {}
+    .B2 {}
+    .B3 {}
+        .TBA {}
+            .TBA1 {}
+            .TBA2 {}
+            .TBA3 {}
+        .TBB {}
+            .TBB1 {}
+            .TBB2 {}
+            .TBB3 {}
+        .TBC {}
+            .TBC1 {}
+            .TBC2 {}
+            .TBC3 {}
+        .TBD {}
+            .TBD1 {}
+            .TBD2 {}
+            .TBD3 {}
+.C {}
+    .C1 {}
+    .C2 {}
+    .C3 {}
+    .C4 {}
+        .TCA {}
+            .TCA1 {}
+                .TCA1_STR1 {}
+                .TCA1_STR2 {}
+            .TCA2 {}
+                .TCA2_STR1 {}
+                .TCA2_STR2 {}
+        .TCB {}
+           .TCB1 {}
+                .TCB1_STR1 {}
+                .TCB1_STR2 {}
+    .C5 {}
+.D {}
+    .D1 {}
+    .D2 {}
+    .D3 {}
+        .LIST {}
+    .D4 {}
+    .D5 {}
+    .D6 {}
+    .D7 {}
+    .D8 {}
+    .D9 {}
+    .D10 {}
+    .D11 {}
+    .D12 {}
+.E {}
+    .E1 {}
+    .E2 {}
+    .E3 {}
+        .table {}
+.F {}
+    .F1 {}
+    .F2 {}
+    .F3 {}
+.ground {}
+    .G1 {}
+    .G2 {}
+    .G3 {}
+    .G4 {}
+    .G5 {}
+    .G6 {}
+    .G7 {}
+    .G8 {}
+    .G9 {}
+
+
+
+
+
