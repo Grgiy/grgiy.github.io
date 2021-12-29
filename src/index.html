@@ -10,6 +10,7 @@
   <meta property="og:title" content="this is my first page">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/root_styles.css">
      
      
   <title>Grgiy-web development</title>
@@ -20,6 +21,7 @@
   </style>-->
 
  <body>
+     <div class="object_block_test Tls_txt_h">G</div>
      <header>
          <nav>
               <div class='M1'>Андрей Браун</div>
@@ -36,18 +38,18 @@
           </nav>
      </header>
      <div class='greet'>
-         <div class='greet_txt'>
+         <div class='Tls_txt_h grt_1 bold'>
          <p>Привет <br> Я Андрей Браун</p>
-             <p><span class=greet_txt_1>Фулл стек веб-разработчик и Android разработик</span></p>
+             <p><span class="Tls_txt_std clr_2">Фулл стек веб-разработчик и Android разработик</span></p>
          <input class='BTN' type='submit' value="Oб мне" name=BTN_1>
          <input class='BTN'type='submit' value="Мои работы" name=BTN_2></div>
     </div>
      <div class='A'>
-         <div class='A1'>Обо мне</div>
+         <div class='A1 Tls_txt_h3'>Обо мне</div>
          <div class='standart_box'><div class='object_block_orange'></div></div>
          <div class='A2'><img src='img/greet_fon_2.png' alt='аватарка'></div>
-         <div class='A3'>
-                <div name='text_1_A'><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec omare diam. Sed commodo nibh ante
+         <div class='A3 Tls_txt_std_2 clr_2 jst'>
+                <div name='text_1_A'><p>Lorem ipsum dolor sit amet,consectetur adipiscing elit. Duis sed dapibus leo nec omare diam. Sed commodo nibh ante
                 facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p></div>
                 <div name='text_2_A'>Сама по себе боль - это любовь, основная система хранения. Но лев не любит нормальную посуду. Но, пожалуйста, воспользуйтесь ставкой. Легко пить боль иммунной системы. Лев не украшает платформу, но посуда удобная.</div>
         </div>
@@ -56,10 +58,10 @@
         </div>
      </div>
      <div class='B'>
-         <div class='B1'>ЧТО Я УМЕЮ</div>
+         <div class='B1 Tls_txt_h3'>ЧТО Я УМЕЮ</div>
          <div class='standart_box'><div class='object_block_orange'></div></div>
          <div class='B2'>></div>
-         <div class='B3'>
+         <div class='B3 cntr_block'>
                 <div class='TBA'>
              <div class='TBA1'><img src='img/TBA1.png' alt='монитор'></div>
              <div class='TBA2'>Веб дизайн</div>
@@ -96,18 +98,38 @@
          </div>
      </div>
      <div class='C'>
-         <div class='C1'>КЕЙСЫ</div>
+         <div class='C1 Tls_txt_h3'>КЕЙСЫ</div>
          <div class='standart_box'><div class='object_block_orange'></div></div>
          <div class='C2' name='text_7_C'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed Dapibus leo nec ornare diamcoccodo nibh ante facilisis.
          </div>
          <div class='C3'><img src='img/C3.png' alt='картинка окна'></div>
          <div class='C4'>
+             <table>
+                 <tr>
+                     <td><span>CLIENT:</span><p>какая-то компания</p></td>
+                    <td rowspan='2'>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit., sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </td>
+                 </tr>
+                 <tr>
+                     <td><span>WEBSITE:</span><p>http://www.somedomain.com</p></td>
+                     <td></td>
+                 </tr>
+             </table>
+         
+         
+         
+         </div>
+     <!--    <div class='C4'>
              <div Class='TCA'>
                  <div Class='TCA1'>
                      <div class='TCA1_STR1'>CLIENT:</div>
                      <div class='TCA1_STR2'>какая-то компания</div>
-                 </div>
+                 </div>рачет
+                 
                  <div Class='TCA2'>
                      <div class='TCA2_STR1'>WEBSITE:</div>
                      <div   class='TCA2_STR2'>http://www.somedomain.com</div>
@@ -122,11 +144,11 @@
                     </div>
                  </div>
             </div>
-         </div>
+         </div>-->
          <a href='http://www.google.com' class=btn name=BTN_4><div class='C5'>VISIT LIVE SITE</div></a>
      </div>
      <div class='D'>
-        <div class='D1'>Расчет стоимост</div>
+        <div class='D1 Tls_txt_h3'>Расчет стоимости</div>
         <div class='D2'>ТИП САЙТА</div>
         <div class='D3'>
             <select class=LIST name='list_1'>>
@@ -162,7 +184,7 @@
         <div class='D'></div>    
      </div>
      <div class='E'>
-        <div class='E1'>НЕМНОГО СТАТИСТИКИ</div>
+        <div class='E1 Tls_txt_h3'>НЕМНОГО СТАТИСТИКИ</div>
          <div class='standart_box'><div class='object_block_orange'></div></div>
         <div class='E2'></div>
          <div class='E3'>
@@ -189,9 +211,9 @@
          </div>
     </div>      
      <div class='F'>
-        <div class='F1'>отзывы</div>
-         <div class='standart_box'><div class='object_block_orange'></div></div>
-        <div class='F2'><img src='img/F2.png' alt='аватарка_2'></div>
+        <div class='F1 Tls_txt_h3'>отзывы</div>
+        <div class='standart_box'><div class='object_block_orange'></div></div>
+        <div class='F2 cntr_block'><img src='img/F2.png' alt='аватарка_2'></div>
         <div class='F3'>
 <div class='F3_text_1' name='text_9_F'>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante
@@ -201,16 +223,18 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo ne
 легко пить боль иммунной системы.<br></div>
 <div class='F3_text_2' name='text_10_F'>
 Михаил, Ген директор ПАО “Газпром”.</div>
-        </div><div class='F2'><img src='img/F4.png' alt='3 точки'>
-     </div> </div> 
+     </div>
+     <div class='F4 cntr_block'><img src='img/F4.png' alt='3 точки'>
+     </div> 
+     </div>
 <!-- потом тут какие-то 3 точки внизу полагаю смарт перерход на други 2 вкладки --> 
      <div class='ground'>
-        <div class='G1'>Мои контакты</div>
+        <div class='G1 Tls_txt_h3 clr_1'>Мои контакты</div>
          <div class='standart_box'><div class='object_block_orange'></div></div>
         <div class='G2'></div>
-        <div class='G3' name='text_11_G'>
+        <div class='G3 Tls_txt_std clr_1 cntr' name='text_11_G'>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leo nec ornare diamcoccodo</div>
-        <div class='G4'>
+        <div class='G4 Tls_txt_std clr_1 cntr_box'>
             <table class='table' name='TAB_2'>
                 <tr>
                     <td><img src='img/G2TA1.png' alt='Иконка: Маркер GPS'></td>
@@ -225,14 +249,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leo nec
                 </tr >
             </table>
         </div>
-        <div class='G5'>оставте мне сообщение</div>
-        <div class='G6'>
+        <div class='G5 cntr'>оставте мне сообщение</div>
+        <div class='G6 cntr_block'>
              <input type='text' name="str_2" placeholder='Имя'>
              <input type='text' name="str_3" placeholder='Email'>
              <textarea id="str_4" name="subject" placeholder="Оставте сообзение..."></textarea>
          </div>
-        <div class='G7'>
-            <input type='submit' name=BTN_5 value="Отправить" ></div>
+        <div class='G7 cntr_block'>
+            <input class="cntr_block" type='submit' name=BTN_5 value="Отправить" ></div>
 <!--
         <div class='G8'>
             <img src='img/G8TA1.jpg' alt='Иконка: Facebook'>
@@ -244,9 +268,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leo nec
         </div>
 -->
          </div> 
-        <div class='G9'><img src='img/G9.png' alt='Карта'>
-            <div id='G9_text'>Copyright © 2021 Андрей Браун. Design by Web</div></div>
-      
+        <div class='G9'><img src='img/G9.png' alt='Карта'></div>
+        <!-- НИЖНЯЯ ПЛАШКА -->
+        <div class="G10">
+            <div class='Tls_txt_h4 clr_1'>Copyright © 2021 Андрей Браун. Design by Web</div>
+        </div>
+        
+        
  </body>
 </html>
 

@@ -1,51 +1,61 @@
-
 body {
+/*    display: none;*/
     font-family: 'Arial', sans-serif;}
+/*    overflow-x: hidden; }*/
+/* навигация */
 nav {
+    position: fixed;
+    z-index: 101;
+    display: block;
     background: rgba(37,75,95,1);
-    width: 100%;  
+    top: 0;
+    left: 0;
+    right: 0;
     height: 60px;
     color: white;}
     .M1 {
-        padding: 0 150px 0 200px;
+        padding: 0 100px;
         line-height: 60px;
         text-align: center;
         float: left;
-        font-size: 22px;}
-    .M2 {width: 1200px; margin-left: 35%;}      
+        font-size: 20px;}
+    .M2 {width: 800px; padding-right: 10px; margin: 0 auto; }      
         .M2 il {
             float: left;
             line-height: 60px;
-            font-size: 16px;
-            margin-right: 45px;
+            font-size: 15px;
+            margin-right: 20px;
             text-transform: uppercase;}
 
 .greet{	
+/*    display: none;*/
     width: 100%;  
-    height: 900px;
+    height: 1000px;
+    padding-top: 300px;
     background: 
         url(../img/greet_fon_2.png) 90% 100%/auto 85% no-repeat,
         url(../img/greet_fon_1.png) center/cover no-repeat;
     box-shadow: inset 0 -80px 60px -80px #000;}
-    .greet_txt{
-        float: left;
-        text-align: center;
+    .grt_1{
+/*        display: none;*/
         background: rgba(252, 252, 252, 0.6);
-        padding: 80px 0 0 0 ;
-        margin: 300px 0px 0px 25% ;
+        padding: 60px 0 0 0 ;
         width: 500px;  
-        height: 330px;
+        margin: 0 auto;
+        height: 400px;
         color: #2c384a;
         font-size: 40px;
         font-weight: 600;
         border-radius: 20px; 
         border: 6px solid rgba(88, 103, 116, 0.3);
         box-shadow: 0 0 0 7px rgba(255, 106, 36, 0.7);}
-        .greet_txt_1{
+        .greet_txt{
+/*            display: none;*/
             font-weight: normal;
             font-size: 15px;
             color:  #79818d;}
         .BTN {
+/*            display: none;*/
             margin: 30px 0 0 20px;
             padding: 0px 15px;
             color:  snow;
@@ -55,43 +65,39 @@ nav {
             text-align: center;
             border-radius: 5px; 
             border: 4px solid #79818d;}
-
-.A { display: block; width: 100%;  height: 620px;}
-    .A1 {
-        display: block;
-        width: 150px;
-        margin-top: 60px; margin-left: 50%;
-        padding-left: 10px;
-        text-transform: uppercase; font-weight: bold; font-size: 25px; color: #2c384a;}
- 
-    .standart_box { width: 150px; padding-left:30px; margin: 20px auto 40px 50%;}
-        .object_block_orange {background: #fd5308; width: 80px;  height: 5px;}
+/*.A{display: none;}*/
+/* ОБО МНЕ */
+.A { display: block; width: 100%;  height: 700px;}
+    .A1 {padding-top: 40px;}
     .A2 {
         background: rgba(105, 111, 106, 0.2);
-        height: 150px; width: 150px;
-        margin-left: 50%; margin-bottom: 20px;
+        height: 250px; width: 250px;
+        margin: 40px auto;
         overflow: hidden;
-        border: 5px solid rgba(253, 83, 8, 0.5); box-shadow: 0 0 0 7px rgba(105, 111, 106, 0.2); border-radius: 100px;}
+        border: 5px solid rgba(253, 83, 8, 0.5); box-shadow: 0 0 0 7px rgba(105, 111, 106, 0.2); border-radius: 50%;}
         .A2 img{
-            margin-top: 15px; margin-left: 10px;
-            width: 110px; height: 125px;
+            margin-top:6%; margin-left:7%;
+            width: 86%;
             filter: grayscale(1);}
     .A3 div{
         display: block;
         padding: 5px;
-        text-align: justify;
-        margin-left: 35%; margin-right: 20%;
-        width: 40%; max-width: 700px; height: 100px;
-        font-size: 12px; color: darkslategray;} 
+        text-align: justfy;
+        margin: 0 auto;
+        width: 40%; max-width: 700px; height: 100px;} 
+    /* кнопка */
     .A4 {
+        display: block;
         background: none;
-        padding: 0px 15px; padding-left:30px; 
-        margin: 20px auto 40px 49%;
+        padding: 0px 15px; 
+        margin: 0 auto;
         width: 200px; height: 40px;
         border: 3px solid #79818d; border-radius: 5px;
         text-align: center;
         color:  #79818d; font-size: 10px;}
+/* ЧТО Я УМЕЮ */
 .B {
+    /* display: none; */
     background:  
         url(../img/B_fon.png) center/cover no-repeat;
     width: 100%; height: 500px;
@@ -99,210 +105,220 @@ nav {
     .B1 {
         display: block;
         width: 300px;
-        margin-left: calc(50% - 15px);
-        text-transform: uppercase; font-weight: bold; font-size: 25px; color: #2c384a;}
+        margin: 0 auto;}
 /*    .B2 {}*/
-    .B3 {margin-left: 15%;}
+    .B3 {
+        width: 800px;
+        height: 150px;
+        margin: 0 auto;}
         .TBA {text-align: center; float: left; width: 20%;}
             .TBA1 {height: 50px;}
-            .TBA2 {color: rgb(253, 83, 8); margin: 10px 0 10px 0; font-weight: 600;}
-            .TBA3 { 
-                background: rgba(253, 83, 8, 0.5);
-                padding: 10px;
-                color: #0A2D3D;
-                border: 3px solid rgba(253, 83, 8, 0.7); border-radius: 20px;}
+            .TBA2 {color: rgb(253, 83, 8); margin: 10px 0; font-weight: 600;}
+            .TBA3 {padding: 10px;}
         .TBB {float: left; width: 20%; margin-left: 5%; text-align: center;}
             .TBB1 {height: 50px;}
             .TBB2 {color: rgb(253, 83, 8); margin: 10px 0 10px 0; font-weight: 600;}
-            .TBB3 { 
-                background: rgba(253, 83, 8, 0.5);
-                padding: 10px;
-                color: #0A2D3D;
-                border: 3px solid rgba(253, 83, 8, 0.7); border-radius: 20px;}
+            .TBB3 {padding: 10px;}
         .TBC {float: left; width: 20%; margin-left: 5%; text-align: center;}
             .TBC1 {height: 50px;}
-            .TBC2 {margin: 10px 0 10px 0; color: rgb(253, 83, 8); font-weight: 600;}
-            .TBC3 { 
-                background: rgba(253, 83, 8, 0.5);
-                padding: 10px;
+            .TBC2 {margin: 10px; color: rgb(253, 83, 8); font-weight: 600;}
+            .TBC3 {padding: 10px;
                 color: #0A2D3D;
-                border: 3px solid rgba(253, 83, 8, 0.7); border-radius: 20px;}
+                }
         .TBD {float: left; width: 20%; margin-left: 5%; text-align: center;}
             .TBD1 {height: 50px;}
             .TBD2 {color: rgb(253, 83, 8); margin: 10px 0 10px 0; font-weight: 600;}
-            .TBD3 {
-                background: rgba(253, 83, 8, 0.5);
-                padding: 10px;
-                color: #0A2D3D;
-                border: 3px solid rgba(253, 83, 8, 0.7);
-                border-radius: 20px;}
+            .TBD3 {padding: 10px;}
+/* КЕЙСЫ */
 .C {
+/*    display: none;*/
     background: white;
     width: 100%; height: 1000px;
     padding-top: 100px;}
     .C1 {
+/*        display: none;*/
         display: block;
         width: 300px;
-        margin-left: calc(50% + 22px);
-        text-transform: uppercase; color: #2c384a; font-weight: bold; font-size: 25px;}
+        margin: 0 auto;}
     .C2 {
+        display: none;
         margin-right: calc(50% - 375px); margin-left: calc(50% - 275px); margin-bottom: 30px;
         color: #0A2D3D; text-align: center;}
     .C3 img{
+/*        display: none;*/
         background: red;
         width: 80%; max-width: 1000px;
+        margin-left: calc(50% - 400px);}
+    .C4 table{
+        margin-left: calc(50% - 400px);
+        padding: 20px;
+        border-spacing: 20px;
+        width: 700px;
+        height: 200px;}
+.C4 span {font-weight: bold; font-size: 20px;}
+.C4 td{
+/*    border: 2px solid black;*/
+    vertical-align: top; font-size: 12px; color: #2c384a;}
+
+
+
+/*    .C4{display: none;}*/
+/*
+    .C4 {
+        background: rgb(255, 100, 20) ;
+        height: 400px; 
+        width: 700px; 
         margin-left: calc(40% - 250px);}
-    .C4 {width: 2500px; height: 150px; margin-left: calc(40% - 250px);}
-        .TCA {float: left; width: 300px; height: 100%;}
-            .TCA1 {}
-                .TCA1_STR1 {padding: 10px 0 5px 0; font-size: 20px; color: #2c384a;}
-                .TCA1_STR2 {padding: 10px 0 5px 0;}
-            .TCA2 {}
-                .TCA2_STR1 {padding: 10px 0 5px 0; font-size: 20px; color: #2c384a;}
-                .TCA2_STR2 {padding: 10px 0 5px 0;}
-        .TCB {width: 30%; height: 250px;}
-        3 .TCB1 {padding: 10px 0 5px 0;}
-                .TCB1_STR1 {font-size: 20px; color: #2c384a;}
+        .TCA {background: rgb(100, 255, 20); width: 210px; height: 200px; display:inline-block;}
+            .TCA1 {background: rgba(50, 50, 50, 0.7)}
+                .TCA1_STR1 {width: 100px; padding: 10px 0 5px 0; font-size: 20px; color: #2c384a;}
+                .TCA1_STR2 {width: 100px; padding: 10px 0 5px 0;}
+            .TCA2 {background: rgba(50, 50, 250, 0.7)}
+                .TCA2_STR1 {width: 100px; padding: 10px 0 5px 0; font-size: 20px; color: #2c384a;}
+                .TCA2_STR2 {width: 100px; padding: 10px 0 5px 0;}
+        .TCB {display:inline-block; float: left; background: rgba(250, 50, 50, 0.7)}
+          .TCB1 {width: 200px; height: 150px;}
+                .TCB1_STR1 {width: 200px; font-size: 20px; color: #2c384a;}
                 .TCB1_STR2 {}
+*/
     .C5 {
         background: rgba(8, 148, 134, 0.9);
         width: 200px; height: 50px;
-        margin-left: calc(40% - 250px);
+        margin-left: 15%;
         padding-top: 17px;
         text-align: center;
         color:  snow;
         font-weight: 700;
         border-radius: 5px;}
-.D {display: block; width: 100%; height: 500px;}
+/*.D {display: none;}*/
+/* РАСЧЕТ СТОИМОСТИ */
+.D{background: white; display: block; width: 100%; margin: 30px 0 30px 0; }
     .D1 {
+/*        display: none;*/
         display: block;
         width: 300px;
-        margin-bottom: 70px; margin-left: calc(50% - 30px);
-        padding-top: 50px;
-        color: #2c384a; font-weight: bold; font-size: 25px;}
+        margin: 0 auto;
+        padding: 30px 0;}
     .D2 {
-        display: block;
+/*        display: none;*/
         width: 300px;
-        margin-left: 20%;
+        margin-left: 10%;
         text-transform: uppercase;
         color: #2c384a;
         font-weight: bold;
         font-size: 20px;}
     .D3 select{
+/*        display: none;*/
         appearance: none;
         background: #eeeeee;
         width: 700px; height: 40px;
-        margin: 10px 0px 10px 0px; margin-left: 20%;
+        margin: 10px 0px 10px 0px; margin-left: 10%;
         padding-left: 20px;
         color: #737373; font-size: 14px;}
         .LIST {}
     .D4 {
+/*        display: none;*/
         display: block;
         width: 300px;
-        margin-left: 20%;
+        margin-left: 10%;
         text-transform: uppercase;
         color: #2c384a;font-weight: bold; font-size: 20px;}
     .D5 select{
+/*        display: none;*/
         appearance: none;
         background: #eeeeee;
         width: 700px; height: 40px;
-        margin: 10px 0px 10px 0px; margin-left: 20%;
+        margin: 10px 0px 10px 0px; margin-left: 10%;
         padding-left: 20px;
         color: #737373; font-size: 14px;}
     .D6 {
+/*        display: none;*/
         display: block;
         width: 300px;
-        margin-left: 20%;
+        margin-left: 10%;
         text-transform: uppercase;
         color: #2c384a;font-weight: bold; font-size: 20px;}
     .border {
+/*        display: none;*/
         width: 700px;
-        margin-left: 20%;
+        margin-left: 10%;
         border-bottom: 3px solid #eeeeee;}        
     .D7 select{
+/*        display: none;*/
         appearance: none;
         background: #eeeeee;
         width: 700px; height: 40px;
-        margin: 10px 0px 10px 0px; margin-left: 20%;
+        margin: 10px 0px 10px 0px; margin-left: 10%;
         padding-left: 20px;
         color: #737373; font-size: 14px;}
     .D8 {
+/*        display: none;*/
         display: block;
         width: 300px;
-        margin-top: 10px; margin-left: 20%;
+        margin-top: 10px; margin-left: 10%;
         text-transform: uppercase;
         color: #2c384a; font-weight: bold; font-size: 15px;}
     .D9 input{
+/*        display: none;*/
         display: block;
         width: 300px;
-        margin-left: 20%;
+        margin-left: 10%;
         text-transform: uppercase;
         color: #2c384a; font-weight: bold; font-size: 20px;}
     .D10 {
+/*        display: none;*/
         display: block;
         width: 300px;
-        margin-left: 20%;
+        margin-left: 10%; margin-bottom: 100px;
         text-transform: uppercase;
         color: #2c384a; font-weight: bold; font-size: 20px;}
     .D11 {background: green;}
     .D12 {}
+/* НЕМНОГО СТАТИСТИКИ */
 .E {
+/*    display: none;*/
     background: 
         url(../img/E.png) center/cover no-repeat;
     height: 400px}
-    .E1 {
-        display: block;
-        width: 300px;
-        margin-bottom: 10px; margin-left: calc(50% - 70px);
-        padding-top: 50px;
-        color: #2c384a; font-weight: bold; font-size: 25px;}
-    .E2 {}
+    .E1 {padding-top:30px;}
+    .E3 {width:700px; margin: 0 auto; background: none;}
     .E3 table{
-        width: 70%; max-width: 700px; height: 100px;
-        margin-top: 70px; margin-left: calc(45% - 220px);
+        width: 700px; height: 100px;
+        margin-top: 70px;
         text-align: center;
         color: #47505f;}
         .E3 td {width: 50px; height: 50px;}
             .E3_B {font-size: 25px; font-weight: 1000;}
             .E3_C {font-size: 15px;}
-.F {display: block; width: 100%; height: 700px;}
-    .F1 {
-        display: block;
-        width: 300px; 
-        margin-top: 60px; margin-left: calc(50% + 10px);
-        text-transform: uppercase;
-        color: #2c384a; font-weight: bold; font-size: 25px;}
-    .F2 {margin-top: 60px; margin-left: calc(50% + 18px)}
+/*.F {display: none;}*/
+/* ОТЫЗВЫ */
+F.{display: block; width: 100%; height: 700px;}
+    .F1 {}
+    .F2 {height: 100px; width: 100px;}
     .F3 {
-        margin-left: 50px;
         padding-top: 30px;
         text-align: center;
         color: #2c384a; font-size: 15px;}
         .F3_text_2  {padding-top: 30px;}
-    .F4 {margin-left: calc(50% + 30px);}
+    .F4 {height:100px; width:50px; padding:40px 0;}
+/* МОИ КОНТАКТЫ */
 .ground {
+/*    display: none;*/
     display: block;
     background: 
             url(../img/G.png) center/cover no-repeat;
-    margin-top: 60px;
+    padding-top: 60px;
     width: 100%; height: 1000px;}
-    .G1 {
-        display: block;
-        width: 300px;
-        margin-left: calc(50% - 35px);
-        padding-top: 100px;
-        text-transform: uppercase;
-        color: white; font-weight: bold; font-size: 25px;}
+    .G1 {}
     .G2 {}
-    .G3 {margin: 80px 0 10px 80px;text-align: center;  color: aliceblue; font-size: 8px;}
-    .G4 {margin-left: calc(50% - 325px); color:white;}
-        .G4 table {width: 750px; text-align: center; border-spacing: 50px;}
+    .G3 {margin: 80px auto;}
+    .G4 {}
+        .G4 table {width: 750px; text-align: center; border-spacing: 50px; margin: 0 auto;}
     .G5 {
-        margin-left: calc(50% - 100px); margin-bottom: 60px;
+        margin-bottom: 60px;
         text-transform: uppercase;
         color: aliceblue; font-size: 22px;}
-    .G6 {
-        margin-left: calc(50% - 370px); width: 800px; height: 200px}
+    .G6 {width: 800px; height: 200px;}
     .G6 input{
         background: rgba(255,255,255, 0.7);
         width: 350px;
@@ -316,22 +332,31 @@ nav {
             height: 100px;
             width: 735px;
             padding: 20px;}
-    .G7 {margin-left: calc(50% - 100px);}
     .G7 input{
         background: rgba(255, 106, 36, 0.0);
         height: 40px;
-        margin: 30px 0 0 20px;
+        margin: 30px auto;
         padding: 0px 15px;
         text-align: center;
         color:  #79818d; font-weight: 700;
         border: 3px solid #79818d; border-radius: 5px;}
+    /* КАРТА */
     .G9 {
+/*        display: none;*/
         background:  #354051;
-        height: 600px;
+        height:300px;
         width: 100%;
         text-align: center;}
-        .G9 img{width: 100%; height: 80%;}
-        #G9_text {color: aliceblue; padding-top: 50px;}
+        .G9 img{width: 100%;}
+        /* плашка снизу */
+        .G10 {
+            background: #354051;
+            position: fixed;
+            z-index: 101;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 10px;}
         
 
 
