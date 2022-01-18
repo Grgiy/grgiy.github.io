@@ -1,1 +1,25 @@
 
+.ban{display: none;}
+                                                                                                                      
+body{background: grey;}
+body{display: flex; justify-content: center; align-items: center; flex-direction: column; }
+                                                                                                                      
+.boot_box{width: 400px; height: 100px;}
+.boot_box{background: red; border: 10px solid red;}
+.boot_box{display: flex; justify-content: center; align-items: center;}
+.boot_box{position: relative;}
+.boot_box{overflow: hidden;}
+.boot_box{color: white; font-size: 50px; font-weight: bold;}
+.boot_box{border-radius: 100px 200px}
+.boot_box:after{position: absolute;}
+.boot_box:after{display: flex; justify-content: center; align-items: center;}
+.boot_box:after{z-index: -1;}
+.boot_box:after{content:""}
+.boot_box:after{background: white; height: 0; width: 100%;}
+.boot_box:after{transform: rotate(40deg)}
+.boot_box:hover:after{transition: height 1s, opacity 5s;}
+.boot_box:hover:after{height: 250%;}
+.boot_box:hover{color: red; transition: color 5s}
+.boot_box:hover:after{opacity: 0.85;}
+.boot_box:hover{z-index: 1}
+                                                                                                                      
