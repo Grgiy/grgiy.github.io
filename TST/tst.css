@@ -1,7 +1,7 @@
 
 .ban{display: none;}
                                                                                                                       
-body{background: grey;}
+body{background: black;}
 body{display: flex; justify-content: center; align-items: center; flex-direction: column; }
                                                                                                                       
 .boot_box{width: 400px; height: 100px;}
