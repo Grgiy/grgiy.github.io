@@ -30,7 +30,7 @@ body{font-size: 90px; font-weight: bold}
                                     
 .box:hover{transform: rotateY(5400000deg) rotatex(4000deg) rotateZ(400deg);}
                                     
-.front{background: url(../img/B_fon_2.png) center/90% no-repeat, linear-gradient(#FF4081, #FFFF00 )}
+.front{background: url(../src/img/B_fon_2.png) center/90% no-repeat, linear-gradient(#FF4081, #FFFF00 )}
 .back{background: #FF4081;}
 .back{background-image: linear-gradient(60deg, #E3535D 40%, #2AA5A0); color: black;}
 
